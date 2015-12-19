@@ -1,0 +1,9 @@
+applications:
+- path: target/webapp-0.0.1.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: kwebapp
+  host: kwebapp
+  disk_quota: 1024M
+  buildpack: java_buildpack
