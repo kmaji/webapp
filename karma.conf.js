@@ -11,7 +11,7 @@ module.exports = function(config) {
         autoWatch: false,
         browsers: ['Chrome', 'Chrome_without_security'],
 
-        // you can define custom flags
+        // custom stuff
         customLaunchers: {
             Chrome_without_security: {
                 base: 'Chrome',
