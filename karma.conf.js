@@ -10,8 +10,10 @@ module.exports = function(config) {
         singleRun: true,
         autoWatch: false,
         browsers: ['Chrome', 'Chrome_without_security'],
-
-        // custom stuff
+        plugins : [
+            'karma-chrome-launcher',
+            'karma-jasmine'
+        ],
         customLaunchers: {
             Chrome_without_security: {
                 base: 'Chrome',
