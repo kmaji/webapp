@@ -9,9 +9,10 @@ module.exports = function(config) {
         port: 9876,
         singleRun: true,
         autoWatch: false,
-        browsers: ['Chrome', 'Chrome_without_security'],
+        browsers: ['Firefox'],//, 'Chrome_without_security'],
         plugins : [
             'karma-chrome-launcher',
+            'karma-firefox-launcher',
             'karma-jasmine'
         ],
         customLaunchers: {
